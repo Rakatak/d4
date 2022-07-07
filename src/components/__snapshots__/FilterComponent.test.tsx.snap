@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for DataTable Renders the data table component and tests the snapshot 1`] = `
+Array [
+  <input
+    aria-label="Search Input"
+    className="sc-bczRLJ fMDoqu"
+    id="search"
+    placeholder="Filter By Name"
+    type="text"
+  />,
+  <button
+    className="sc-gsnTZi gCvjue"
+    type="button"
+  >
+    X
+  </button>,
+]
+`;

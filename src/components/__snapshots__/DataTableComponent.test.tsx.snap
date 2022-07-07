@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for DataTable Renders the data table component and tests the snapshot 1`] = `
+Array [
+  <div
+    aria-level={1}
+    className="sc-fEOsli cEMZEX rdt_TableHeader"
+    role="heading"
+  >
+    <div
+      className="sc-bjUoiL kWAsOx"
+    >
+      GovData Table
+    </div>
+    <div
+      className="sc-fnykZs kIZdof"
+    >
+      <div
+        className="sc-ksZaOG eAWRvo"
+      />
+      <div
+        className="sc-hAZoDl jEpWRK"
+      />
+    </div>
+  </div>,
+  <header
+    className="sc-dIouRR TUEFO"
+  >
+    <input
+      aria-label="Search Input"
+      className="sc-jIZahH jYrXcl"
+      id="search"
+      onChange={[Function]}
+      placeholder="Filter By Name"
+      type="text"
+      value=""
+    />
+    <button
+      className="sc-himrzO kkoyas"
+      onClick={[Function]}
+      type="button"
+    >
+      X
+    </button>
+  </header>,
+  <div
+    className="sc-dmRaPn gelpCx"
+  >
+    <div
+      className="sc-fLlhyt ifOHjV"
+    >
+      <div
+        className="sc-bczRLJ eSTlnH rdt_Table"
+        disabled={false}
+        role="table"
+      >
+        <div
+          className="sc-gsnTZi idPHNo rdt_TableHead"
+          role="rowgroup"
+        >
+          <div
+            className="sc-dkzDqf gZWIKX rdt_TableHeadRow"
+            role="row"
+          >
+            <div
+              className="sc-hKMtZM sc-eCYdqJ sc-iqcoie jzGaAN bnAwAJ crSOFH rdt_TableCol"
+              data-column-id={1}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDragStart={[Function]}
+            >
+              <div
+                className="sc-crXcEl bLyqNT rdt_TableCol_Sortable"
+                data-column-id={1}
+                data-sort-id={1}
+                disabled={true}
+                role="columnheader"
+                tabIndex={0}
+              >
+                <div
+                  className="sc-evZas eUeqdG"
+                  data-column-id={1}
+                >
+                  Department
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-hKMtZM sc-eCYdqJ sc-iqcoie jzGaAN bnAwAJ crSOFH rdt_TableCol"
+              data-column-id={2}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDragStart={[Function]}
+            >
+              <div
+                className="sc-crXcEl bLyqNT rdt_TableCol_Sortable"
+                data-column-id={2}
+                data-sort-id={2}
+                disabled={true}
+                role="columnheader"
+                tabIndex={0}
+              >
+                <div
+                  className="sc-evZas eUeqdG"
+                  data-column-id={2}
+                >
+                  Description
+                </div>
+              </div>
+            </div>
+            <div
+              className="sc-hKMtZM sc-eCYdqJ sc-iqcoie jzGaAN bnAwAJ crSOFH rdt_TableCol"
+              data-column-id={3}
+              onDragEnd={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDragStart={[Function]}
+            >
+              <div
+                className="sc-crXcEl bLyqNT rdt_TableCol_Sortable"
+                data-column-id={3}
+                data-sort-id={3}
+                disabled={true}
+                role="columnheader"
+                tabIndex={0}
+              >
+                <div
+                  className="sc-evZas eUeqdG"
+                  data-column-id={3}
+                >
+                  Description
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-ivTmOn fwKvpK"
+        >
+          <div
+            style={
+              Object {
+                "padding": "24px",
+              }
+            }
+          >
+            There are no records to display
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

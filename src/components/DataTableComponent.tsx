@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { ReactElement } from "react";
 import DataService from '../services/DataService';
 import DataTable from 'react-data-table-component';
 import { FilterComponent } from './FilterComponent';
@@ -31,7 +31,7 @@ const columns = [
 
 
 export const DataTableComponent = (): ReactElement => {
-    const [govData, setGovData] = useState<IGovData[]>([]);
+    const [govData, setGovData] = React.useState<IGovData[]>([]);
     const [filterText, setFilterText] = React.useState('');
 
     DataService.getInstance().getGovData().then((result: IGovData[]) => {
@@ -44,6 +44,7 @@ export const DataTableComponent = (): ReactElement => {
         item => item.department && item.department.toLowerCase().includes(filterText.toLowerCase()),
     );
 
+    // handling for the filter input
     const subHeaderComponentMemo = React.useMemo(() => {
         const handleClear = () => {
             if (filterText) {
@@ -67,3 +68,5 @@ export const DataTableComponent = (): ReactElement => {
         />
     );
 };
+
+export default DataTableComponent;
