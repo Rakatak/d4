@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# DS4G Coding challenge
+
+This project contains a small and simple app, displaying an interactive data table, containing government ministry data.
+
+The table is sortable via table interaction and filterable via textfield.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
