@@ -6,6 +6,15 @@ The table is sortable via table interaction and filterable via textfield.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Requirements
+
+Node >= 14.0.0
+
+NPM >= 5.6
+
+React >= 18.2
+
 ## Available Scripts
 
 In the project directory, you can run:
